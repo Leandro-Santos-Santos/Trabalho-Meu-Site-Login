@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Running Fishion</title>
-<link rel="stylesheet" href="./css/styles.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
     <main>
-        <h1>RUNNING</h1>
-        <h2>Fishion</h2>
+      <h1>RUNNING</h1>
+      <h2>Fishion</h2>
 
-
-        <img src="css/img/icons8-air-jordan-100.png" alt="air jordan icone">
-        <img src="css/img/icons8-nike-100.png" alt="Nike icone">
-        <img src="css/img/icons8-adidas-a-multinational-corporation-that-designs-and-manufactures-shoes,-clothing-and-accessories.-100.png" alt="adidas icone">
-        <img src="css/img/icons8-puma-a-german-multinational-company---designs-and-manufactures-athletic-and-casual-footwear,-apparel-and-accessories-100.png" alt="puma icone">
-        
-        <div class="wrapper">
+    <div class="contain">
+      <img src="./src/img/icons8-air-jordan-100.png" alt="air jordan icone" class="logo-image"/>
+      <img src="./src/img/icons8-nike-100.png" alt="Nike icone" class="logo-image"/>
+      <img src="./src/img/icons8-adidas-a-multinational-corporation-that-designs-and-manufactures-shoes,-clothing-and-accessories.-100.png"alt="adidas icone" class="logo-image"/>
+      <img src="./src/img/icons8-puma-a-german-multinational-company---designs-and-manufactures-athletic-and-casual-footwear,-apparel-and-accessories-100.png" alt="puma icone" class="logo-image"/>
+    </div>
+      <div class="wrapper">
         <form>
-           <h1>Bem Vindo!</h1> 
-    
-    <div class="input-box">
-            
+          <h1>Bem Vindo!</h1>
+
+          <div class="input-box">
             <label>Insira seu e-mail para acessar.</label>
-            <input type="text" placeholder="Por favor digite seu e-mail." required>
-        
+            <input
+              type="text"
+              placeholder="Por favor digite seu e-mail."
+              required
+            />
+
             <label>Senha</label>
-            <input type="password" placeholder="Por favor digite sua senha." required>
-   
-    </div>
-    
-    <br>
-    
-    <div class="input-button">
-        <button onclick="alert('Enviado!')" type="submit" class="btn">Entrar</button>    
-    </div>
-    
-    <p>ou</p>
+            <input
+              type="password"
+              placeholder="Por favor digite sua senha."
+              required
+            />
+          </div>
 
-    <p>Entrar com Google</p>
-    <p>Esqueceu a senha?</p>
+          <br />
 
-    <p>Ao continuar, afirmo que concordo com a Política de privacidade e os Termos de uso.</p>
+          <div class="input-button">
+            <button onclick="alert('Enviado!')" type="submit" class="btn">
+              Entrar
+            </button>
+          </div>
 
+          <p>ou</p>
+        <div class="login-google">
+          <p>Entrar com Google</p><img src="./src/img/icons8-google-48.png" alt="google icone">
+        </div>
+          <p>Esqueceu a senha?</p>
 
-    <p>Não tem uma conta? Cadastre-se</p>
+          <p>
+            Ao continuar, afirmo que concordo com a Política de privacidade e os
+            Termos de uso.
+          </p>
 
+          <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
         </form>
-    </div>    
+      </div>
     </main>
-</body>
+  </body>
 </html>
